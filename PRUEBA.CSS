@@ -1,0 +1,67 @@
+body {
+    margin-bottom: 300px;
+    /* Genera un espacio al final de la pagina */
+  }
+
+p{
+    border:1px solid black;
+    display: flex;
+    justify-content: center;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    left: 2;
+    right: 2;
+    width: 98%;
+    border:5px solid
+}
+
+
+
+#parrafo{
+    color : green;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+    border:1px solid black;
+   
+}
+
+img{
+    /* display: flex;
+    margin: auto; */
+    /* max-width: 50%; */
+    border: 2px solid red;
+}
+
+#texto{
+    color : blue;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: left;
+}
+
+#columna{
+    width: 50%;
+    border:1px solid black;
+}
+
+#pantalla{
+    width: 100%;
+    border:1px solid black;
+    
+}
+
+#derecha{
+    float: right;
+    width: 49%;
+    border:2px solid red;
+}
+
+#izquierda{
+    width: 49%;
+    border:2px solid blue;
+}
